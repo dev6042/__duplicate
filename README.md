@@ -8,3 +8,6 @@ It is intended to help you see the benefits of [Gemini Code Assist](https://clou
 
 1. The Vertex AI logic is in [app/vertex.ts](app/vertex.ts).
 2. The main page is in [app/page.tsx](app/page.tsx).
+
+
+Hi
