@@ -1,0 +1,179 @@
+[debug] [2024-12-03T13:39:07.790Z] ----------------------------------------------------------------------
+[debug] [2024-12-03T13:39:07.793Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2024-12-03T13:39:07.793Z] CLI Version:   13.24.1
+[debug] [2024-12-03T13:39:07.794Z] Platform:      linux
+[debug] [2024-12-03T13:39:07.794Z] Node Version:  v20.18.0
+[debug] [2024-12-03T13:39:07.794Z] Time:          Tue Dec 03 2024 13:39:07 GMT+0000 (Coordinated Universal Time)
+[debug] [2024-12-03T13:39:07.794Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-03T13:39:07.882Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-03T13:39:07.882Z] > authorizing via signed-in user (devstar6042@gcplab.me)
+[debug] [2024-12-03T13:39:07.883Z] [iam] checking project partner-techie24lon-6042 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-12-03T13:39:07.884Z] Checked if tokens are valid: true, expires at: 1733235985311
+[debug] [2024-12-03T13:39:07.884Z] Checked if tokens are valid: true, expires at: 1733235985311
+[debug] [2024-12-03T13:39:07.885Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/partner-techie24lon-6042:testIamPermissions [none]
+[debug] [2024-12-03T13:39:07.886Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/partner-techie24lon-6042:testIamPermissions x-goog-quota-user=projects/partner-techie24lon-6042
+[debug] [2024-12-03T13:39:07.886Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/partner-techie24lon-6042:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-12-03T13:39:08.557Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/partner-techie24lon-6042:testIamPermissions 200
+[debug] [2024-12-03T13:39:08.557Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/partner-techie24lon-6042:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-12-03T13:39:08.558Z] Checked if tokens are valid: true, expires at: 1733235985311
+[debug] [2024-12-03T13:39:08.558Z] Checked if tokens are valid: true, expires at: 1733235985311
+[debug] [2024-12-03T13:39:08.558Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/partner-techie24lon-6042 [none]
+[debug] [2024-12-03T13:39:08.764Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/partner-techie24lon-6042 200
+[debug] [2024-12-03T13:39:08.764Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/partner-techie24lon-6042 {"projectId":"partner-techie24lon-6042","projectNumber":"179792716917","displayName":"Partner Techie Meetup-6042","name":"projects/partner-techie24lon-6042","resources":{"hostingSite":"partner-techie24lon-6042"},"state":"ACTIVE","etag":"1_eea0f43a-947a-4cf5-b12d-179c03193ae9"}
+[debug] [2024-12-03T13:39:10.558Z] defaultcredentials: writing to file /home/user/.config/firebase/devstar6042_gcplab_me_application_default_credentials.json
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-12-03T13:39:14.959Z] Checked if tokens are valid: true, expires at: 1733235985311
+[debug] [2024-12-03T13:39:14.959Z] Checked if tokens are valid: true, expires at: 1733235985311
+[debug] [2024-12-03T13:39:14.959Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/partner-techie24lon-6042/sites/partner-techie24lon-6042 [none]
+[debug] [2024-12-03T13:39:15.705Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/partner-techie24lon-6042/sites/partner-techie24lon-6042 200
+[debug] [2024-12-03T13:39:15.705Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/partner-techie24lon-6042/sites/partner-techie24lon-6042 {"name":"projects/partner-techie24lon-6042/sites/partner-techie24lon-6042","defaultUrl":"https://partner-techie24lon-6042.web.app","appId":"1:179792716917:web:71ea9f3b1f99ba7974843c","type":"DEFAULT_SITE"}
+[info]   ▲ Next.js 14.2.16
+
+[info] 
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully
+
+[info]    Linting and checking validity of types ...
+
+[info]    Collecting page data ...
+
+[info]    Generating static pages (0/4) ...
+
+[info]    Generating static pages (1/4) 
+
+[info]    Generating static pages (2/4) 
+
+[info]    Generating static pages (3/4) 
+
+[info]  ✓ Generating static pages (4/4)
+
+[info]    Finalizing page optimization ...
+   Collecting build traces ...
+
+[info] 
+
+[info] Route (app)                              Size     First Load JS
+┌ ○ /                                    76.3 kB         163 kB
+└ ○ /_not-found                          873 B            88 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/117-2307bb8646fc3969.js       31.6 kB
+  ├ chunks/fd9d1056-ac47f7b4a1759b90.js  53.6 kB
+  └ other shared chunks (total)          1.86 kB
+
+
+[info] 
+○  (Static)  prerendered as static content
+
+
+[info] Building a Cloud Function to run this application. This is needed due to:
+[info]  • route with server action /
+[info] 
+[debug] [2024-12-03T13:39:43.444Z] skipping / due to server action
+[debug] [2024-12-03T13:39:48.745Z] Checked if tokens are valid: true, expires at: 1733235985311
+[debug] [2024-12-03T13:39:48.745Z] Checked if tokens are valid: true, expires at: 1733235985311
+[debug] [2024-12-03T13:39:48.746Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/partner-techie24lon-6042/sites/partner-techie24lon-6042 [none]
+[debug] [2024-12-03T13:39:49.724Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/partner-techie24lon-6042/sites/partner-techie24lon-6042 200
+[debug] [2024-12-03T13:39:49.724Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/partner-techie24lon-6042/sites/partner-techie24lon-6042 {"name":"projects/partner-techie24lon-6042/sites/partner-techie24lon-6042","defaultUrl":"https://partner-techie24lon-6042.web.app","appId":"1:179792716917:web:71ea9f3b1f99ba7974843c","type":"DEFAULT_SITE"}
+[debug] [2024-12-03T13:39:52.449Z] Error: Command failed: npm i --omit dev --no-audit
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at checkExecSyncError (node:child_process:891:11)
+    at execSync (node:child_process:963:15)
+    at prepareFrameworks (/usr/lib/node_modules/firebase-tools/lib/frameworks/index.js:371:42)
+    at async deploy (/usr/lib/node_modules/firebase-tools/lib/deploy/index.js:58:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-12-03T15:04:07.217Z] ----------------------------------------------------------------------
+[debug] [2024-12-03T15:04:07.221Z] Command:       /usr/bin/node /usr/bin/firebase apphosting:backends:create --project partner-techie24lon-6042 --location us-central1
+[debug] [2024-12-03T15:04:07.221Z] CLI Version:   13.24.1
+[debug] [2024-12-03T15:04:07.222Z] Platform:      linux
+[debug] [2024-12-03T15:04:07.222Z] Node Version:  v20.18.0
+[debug] [2024-12-03T15:04:07.222Z] Time:          Tue Dec 03 2024 15:04:07 GMT+0000 (Coordinated Universal Time)
+[debug] [2024-12-03T15:04:07.222Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-03T15:04:07.233Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.233Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.235Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/firebaseapphosting.googleapis.com [none]
+[debug] [2024-12-03T15:04:07.236Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/partner-techie24lon-6042
+[debug] [2024-12-03T15:04:07.684Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/firebaseapphosting.googleapis.com 200
+[debug] [2024-12-03T15:04:07.684Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2024-12-03T15:04:07.685Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.685Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.685Z] >>> [apiv2][query] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus [none]
+[debug] [2024-12-03T15:04:07.880Z] <<< [apiv2][status] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus 200
+[debug] [2024-12-03T15:04:07.881Z] <<< [apiv2][body] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus {"overallStatus":"ACCEPTED","uTosStatus":{"tos":{"id":"firebase","tosId":"FIREBASE_UNIVERSAL"},"status":"ACCEPTED"},"childTosStatus":[{"tos":{"id":"cloud","tosId":"CLOUD_PLATFORM"},"status":"ACCEPTED"},{"tos":{"id":"firebase_b2b","tosId":"FIREBASE_B2B"},"status":"ACCEPTED"},{"tos":{"id":"universal","tosId":"GOOGLE_APIS"},"status":"ACCEPTED"}],"termsUrl":"https://firebase.google.com/terms","perServiceStatus":[{"tosId":"APP_CHECK","serviceStatus":{"tos":{"id":"app_check","tosId":"APP_CHECK"},"status":"ACCEPTED"}},{"tosId":"APP_HOSTING_TOS","serviceStatus":{"tos":{"id":"app_hosting","tosId":"APP_HOSTING_TOS"},"status":"ACCEPTED"}},{"tosId":"FIREBASE_DATA_CONNECT","serviceStatus":{"tos":{"id":"data_connect","tosId":"FIREBASE_DATA_CONNECT"},"status":"ACCEPTED"}},{"tosId":"CORE_APPS","serviceStatus":{"tos":{"id":"core_apps","tosId":"CORE_APPS"},"status":"ACCEPTED"}},{"tosId":"VERTEX_AI_IN_FIREBASE","serviceStatus":{"tos":{"id":"vertex_ai_in_firebase","tosId":"VERTEX_AI_IN_FIREBASE"},"status":"ACCEPTED"}},{"tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION","serviceStatus":{"tos":{"id":"firebase_crashlytics_app_distribution","tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION"},"status":"ACCEPTED"}},{"tosId":"GENERATIVE_LANGUAGE","serviceStatus":{"tos":{"id":"generative-language-api","tosId":"GENERATIVE_LANGUAGE"},"status":"NEVER_ACCEPTED"}}]}
+[debug] [2024-12-03T15:04:07.882Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.883Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.883Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.883Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.883Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.883Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.884Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.884Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.884Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.884Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.884Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.884Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:07.885Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/developerconnect.googleapis.com [none]
+[debug] [2024-12-03T15:04:07.885Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/developerconnect.googleapis.com x-goog-quota-user=projects/partner-techie24lon-6042
+[debug] [2024-12-03T15:04:07.886Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/cloudbuild.googleapis.com [none]
+[debug] [2024-12-03T15:04:07.886Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/cloudbuild.googleapis.com x-goog-quota-user=projects/partner-techie24lon-6042
+[debug] [2024-12-03T15:04:07.888Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/secretmanager.googleapis.com [none]
+[debug] [2024-12-03T15:04:07.889Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/secretmanager.googleapis.com x-goog-quota-user=projects/partner-techie24lon-6042
+[debug] [2024-12-03T15:04:07.891Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/run.googleapis.com [none]
+[debug] [2024-12-03T15:04:07.891Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/run.googleapis.com x-goog-quota-user=projects/partner-techie24lon-6042
+[debug] [2024-12-03T15:04:07.893Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/artifactregistry.googleapis.com [none]
+[debug] [2024-12-03T15:04:07.893Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/artifactregistry.googleapis.com x-goog-quota-user=projects/partner-techie24lon-6042
+[debug] [2024-12-03T15:04:07.895Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/iam.googleapis.com [none]
+[debug] [2024-12-03T15:04:07.896Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/iam.googleapis.com x-goog-quota-user=projects/partner-techie24lon-6042
+[debug] [2024-12-03T15:04:08.218Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/developerconnect.googleapis.com 200
+[debug] [2024-12-03T15:04:08.218Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/developerconnect.googleapis.com [omitted]
+[debug] [2024-12-03T15:04:08.668Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/iam.googleapis.com 200
+[debug] [2024-12-03T15:04:08.668Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/iam.googleapis.com [omitted]
+[debug] [2024-12-03T15:04:08.676Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/run.googleapis.com 200
+[debug] [2024-12-03T15:04:08.676Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/run.googleapis.com [omitted]
+[debug] [2024-12-03T15:04:08.682Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/secretmanager.googleapis.com 200
+[debug] [2024-12-03T15:04:08.682Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/secretmanager.googleapis.com [omitted]
+[debug] [2024-12-03T15:04:08.696Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/cloudbuild.googleapis.com 200
+[debug] [2024-12-03T15:04:08.696Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/cloudbuild.googleapis.com [omitted]
+[debug] [2024-12-03T15:04:08.718Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/artifactregistry.googleapis.com 200
+[debug] [2024-12-03T15:04:08.718Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/partner-techie24lon-6042/services/artifactregistry.googleapis.com [omitted]
+[debug] [2024-12-03T15:04:08.719Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:08.719Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:08.719Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/partner-techie24lon-6042/serviceAccounts/firebase-app-hosting-compute@partner-techie24lon-6042.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2024-12-03T15:04:08.719Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/partner-techie24lon-6042/serviceAccounts/firebase-app-hosting-compute@partner-techie24lon-6042.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/partner-techie24lon-6042
+[debug] [2024-12-03T15:04:08.719Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/partner-techie24lon-6042/serviceAccounts/firebase-app-hosting-compute@partner-techie24lon-6042.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2024-12-03T15:04:09.337Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/partner-techie24lon-6042/serviceAccounts/firebase-app-hosting-compute@partner-techie24lon-6042.iam.gserviceaccount.com:testIamPermissions 200
+[debug] [2024-12-03T15:04:09.338Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/partner-techie24lon-6042/serviceAccounts/firebase-app-hosting-compute@partner-techie24lon-6042.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2024-12-03T15:04:09.338Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:09.338Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:09.339Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/partner-techie24lon-6042/locations 
+[debug] [2024-12-03T15:04:10.057Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/partner-techie24lon-6042/locations 200
+[debug] [2024-12-03T15:04:10.058Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/partner-techie24lon-6042/locations {"locations":[{"name":"projects/partner-techie24lon-6042/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/partner-techie24lon-6042/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/partner-techie24lon-6042/locations/us-central1","locationId":"us-central1","displayName":"Iowa"}]}
+[info] i  === Import a GitHub repository 
+[debug] [2024-12-03T15:04:10.059Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:10.059Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:10.059Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/partner-techie24lon-6042/locations/us-central1/connections/firebase-app-hosting-github-oauth [none]
+[debug] [2024-12-03T15:04:10.749Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/partner-techie24lon-6042/locations/us-central1/connections/firebase-app-hosting-github-oauth 200
+[debug] [2024-12-03T15:04:10.749Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/partner-techie24lon-6042/locations/us-central1/connections/firebase-app-hosting-github-oauth {"name":"projects/partner-techie24lon-6042/locations/us-central1/connections/firebase-app-hosting-github-oauth","createTime":"2024-12-03T15:01:53.623423334Z","updateTime":"2024-12-03T15:01:53.681388664Z","githubConfig":{"githubApp":"FIREBASE"},"installationState":{"stage":"PENDING_USER_OAUTH","message":"Please log in to https://github.com using a robot account and then follow this link to authorize Developer Connect to access that account. After authorization, your GitHub authorization token will be stored in Cloud Secret Manager.","actionUri":"https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fconsole.cloud.google.com%2Fdeveloper-connect%2Ffinish-setup%3Fstate%3D%257B%2522connection%2522%253A%2B%2522projects%252Fpartner-techie24lon-6042%252Flocations%252Fus-central1%252Fconnections%252Ffirebase-app-hosting-github-oauth%2522%257D"}}
+[info] i  Please authorize the Firebase GitHub app by visiting this url: 
+[info] i  	http://localhost:9005 
+[debug] [2024-12-03T15:04:19.720Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:19.720Z] Checked if tokens are valid: true, expires at: 1733241438752
+[debug] [2024-12-03T15:04:19.720Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/partner-techie24lon-6042/locations/us-central1/connections/firebase-app-hosting-github-oauth [none]
+[debug] [2024-12-03T15:04:20.432Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/partner-techie24lon-6042/locations/us-central1/connections/firebase-app-hosting-github-oauth 200
+[debug] [2024-12-03T15:04:20.432Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/partner-techie24lon-6042/locations/us-central1/connections/firebase-app-hosting-github-oauth {"name":"projects/partner-techie24lon-6042/locations/us-central1/connections/firebase-app-hosting-github-oauth","createTime":"2024-12-03T15:01:53.623423334Z","updateTime":"2024-12-03T15:01:53.681388664Z","githubConfig":{"githubApp":"FIREBASE"},"installationState":{"stage":"PENDING_USER_OAUTH","message":"Please log in to https://github.com using a robot account and then follow this link to authorize Developer Connect to access that account. After authorization, your GitHub authorization token will be stored in Cloud Secret Manager.","actionUri":"https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fconsole.cloud.google.com%2Fdeveloper-connect%2Ffinish-setup%3Fstate%3D%257B%2522connection%2522%253A%2B%2522projects%252Fpartner-techie24lon-6042%252Flocations%252Fus-central1%252Fconnections%252Ffirebase-app-hosting-github-oauth%2522%257D"}}
+[info] i  Please authorize the Firebase GitHub app by visiting this url: 
+[info] i  	http://localhost:9005 
